@@ -160,6 +160,6 @@ class DemoDataTest {
 
     companion object {
         /** Test data only: the password is public on purpose. */
-        const val PASSWORD = "лідія тест демо рік"
+        const val PASSWORD = "lidia-demo-test-rik"
     }
 }
