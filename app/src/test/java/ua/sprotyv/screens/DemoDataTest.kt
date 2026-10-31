@@ -91,7 +91,7 @@ class DemoDataTest {
         )
 
         // The go-bag: most of it ticked over the year, a few things still missing
-        val kitItems = Kit.groups(content.guide).flatMap { it.items }
+        val kitItems = Kit.groups(content.guide).flatMap { it.items }.distinctBy { it.key }
         val kit = kitItems.mapIndexed { i, item -> KitCheck(item.key, checked = i % 5 != 3, at = at(2026, 1 + i % 10, 1 + i % 27)) }
 
         // Supplies for four people for two weeks: most food in place, medicines run out soon
@@ -141,9 +141,13 @@ class DemoDataTest {
             "notify_supplies" to "true", "notify_notes" to "true", "notify_kit" to "true", "notify_trip_all" to "false",
         )
 
+        // A copy keeps each record's own number, as the app's database gives them
         val snap = BackupData.Snapshot(
-            created = at(2026, 10, 31, 9), medical = medical, people = people, plan = plan, rows = rows,
-            kit = kit, settings = settings, home = home, notes = notes,
+            created = at(2026, 10, 31, 9), medical = medical,
+            people = people.mapIndexed { i, p -> p.copy(id = i + 1L) }, plan = plan,
+            rows = rows.mapIndexed { i, r -> r.copy(id = i + 1L) },
+            kit = kit, settings = settings, home = home,
+            notes = notes.mapIndexed { i, n -> n.copy(id = i + 1L) },
         )
         val plain = BackupData.encode(snap)
         val file = BackupCrypto.encrypt(plain, PASSWORD.toCharArray(), BackupCrypto.Purpose.BACKUP)
