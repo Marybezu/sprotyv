@@ -156,6 +156,22 @@ class DemoDataTest {
         assertEquals(snap.records, back.records)
         val dir = File("build/screens").apply { mkdirs() }
         File(dir, "demo-lidia-shevchenko.sprotyv").writeBytes(file)
+
+        // And it restores into a real database as the app does it, all of it
+        val ctx = androidx.test.core.app.ApplicationProvider.getApplicationContext<android.content.Context>()
+        val db = androidx.room.Room.inMemoryDatabaseBuilder(ctx, ua.sprotyv.personal.PersonalDb::class.java).allowMainThreadQueries().build()
+        try {
+            kotlinx.coroutines.runBlocking {
+                // Words typed with spaces and capitals open it too, as on the restore screen
+                val typed = BackupCrypto.asWords("Lidia Demo Test Rik".toCharArray())!!
+                val restored = BackupData.decode(BackupCrypto.decrypt(file, typed, BackupCrypto.Purpose.BACKUP))
+                BackupData.replaceAll(db, restored, ua.sprotyv.ui.BACKED_UP_SETTINGS)
+                assertEquals(people.size, db.people().all().size)
+                assertEquals(notes.size, db.notes().all().size)
+            }
+        } finally {
+            db.close()
+        }
     }
 
     companion object {
