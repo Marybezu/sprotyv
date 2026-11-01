@@ -33,10 +33,8 @@ import java.time.LocalDateTime
 import java.time.ZoneId
 
 /**
- * A made-up person for trying the app with a year of use behind it: Лідія Шевченко, a mother of
- * three in a community near the front. Everything here is invented (names, numbers, places); the
- * phone numbers are not real ones. The result is an ordinary encrypted backup, restored in the
- * app with the password below; it goes to build/screens with the screen pictures.
+ * The backup with every kind of data in it (placeholder data, see [Demo]) is encrypted, opens
+ * again with its password and restores into a real database, all of it. Nothing is written out.
  */
 @RunWith(AndroidJUnit4::class)
 @Config(sdk = [35])
@@ -44,7 +42,7 @@ class DemoDataTest {
     private val zone = ZoneId.of("Europe/Kyiv")
     private fun at(y: Int, m: Int, d: Int, h: Int = 12, min: Int = 0) = LocalDateTime.of(y, m, d, h, min).atZone(zone).toInstant().toEpochMilli()
 
-    @Test fun lidia() {
+    @Test fun backupRoundTrip() {
         val app: Application = ApplicationProvider.getApplicationContext()
         val content = Content.get(app)
         val snap = Demo.snapshot(content)
@@ -55,8 +53,6 @@ class DemoDataTest {
         // The file opens again with the same password, and reads back the same
         val back = BackupData.decode(BackupCrypto.decrypt(file, PASSWORD.toCharArray(), BackupCrypto.Purpose.BACKUP))
         assertEquals(snap.records, back.records)
-        val dir = File("build/screens").apply { mkdirs() }
-        File(dir, "demo-lidia-shevchenko.sprotyv").writeBytes(file)
 
         // And it restores into a real database as the app does it, all of it
         val ctx = androidx.test.core.app.ApplicationProvider.getApplicationContext<android.content.Context>()
@@ -64,7 +60,7 @@ class DemoDataTest {
         try {
             kotlinx.coroutines.runBlocking {
                 // Words typed with spaces and capitals open it too, as on the restore screen
-                val typed = BackupCrypto.asWords("Lidia Demo Test Rik".toCharArray())!!
+                val typed = BackupCrypto.asWords("Test Backup Pass Word".toCharArray())!!
                 val restored = BackupData.decode(BackupCrypto.decrypt(file, typed, BackupCrypto.Purpose.BACKUP))
                 BackupData.replaceAll(db, restored, ua.sprotyv.ui.BACKED_UP_SETTINGS)
                 assertEquals(people.size, db.people().all().size)
@@ -77,6 +73,6 @@ class DemoDataTest {
 
     companion object {
         /** Test data only: the password is public on purpose. */
-        const val PASSWORD = "lidia-demo-test-rik"
+        const val PASSWORD = "test-backup-pass-word"
     }
 }
