@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.sprotyv.screens.PersonalScreensTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2026-11-02T00:41:39.677Z" hostname="runnervmnwato" time="34.227">
+  <properties/>
+  <testcase name="supplies" classname="ua.sprotyv.screens.PersonalScreensTest" time="7.119"/>
+  <testcase name="people" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.664"/>
+  <testcase name="shieldsLight" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.691"/>
+  <testcase name="roleDftg" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.529"/>
+  <testcase name="gartBig" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.742"/>
+  <testcase name="kit" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.645"/>
+  <testcase name="gart" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.592"/>
+  <testcase name="mine" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.649"/>
+  <testcase name="path" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.598"/>
+  <testcase name="plan" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.498"/>
+  <testcase name="safe" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.69"/>
+  <testcase name="notes" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.574"/>
+  <testcase name="roles" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.54"/>
+  <testcase name="roleDobro" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.459"/>
+  <testcase name="mineLight" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.529"/>
+  <testcase name="medical" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.579"/>
+  <testcase name="newPlace" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.547"/>
+  <testcase name="shields" classname="ua.sprotyv.screens.PersonalScreensTest" time="1.579"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

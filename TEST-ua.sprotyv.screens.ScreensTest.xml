@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.sprotyv.screens.ScreensTest" tests="37" skipped="0" failures="0" errors="0" timestamp="2026-11-02T00:42:13.937Z" hostname="runnervmnwato" time="10.118">
+  <properties/>
+  <testcase name="homeFullDark" classname="ua.sprotyv.screens.ScreensTest" time="0.379"/>
+  <testcase name="powerRunningBig" classname="ua.sprotyv.screens.ScreensTest" time="0.312"/>
+  <testcase name="practiceCheck" classname="ua.sprotyv.screens.ScreensTest" time="0.244"/>
+  <testcase name="bleedingStep" classname="ua.sprotyv.screens.ScreensTest" time="0.239"/>
+  <testcase name="practice" classname="ua.sprotyv.screens.ScreensTest" time="0.252"/>
+  <testcase name="directory" classname="ua.sprotyv.screens.ScreensTest" time="0.269"/>
+  <testcase name="qrText" classname="ua.sprotyv.screens.ScreensTest" time="0.233"/>
+  <testcase name="homeFullBig" classname="ua.sprotyv.screens.ScreensTest" time="0.303"/>
+  <testcase name="kidCard" classname="ua.sprotyv.screens.ScreensTest" time="0.224"/>
+  <testcase name="airAlert" classname="ua.sprotyv.screens.ScreensTest" time="0.283"/>
+  <testcase name="homeFull" classname="ua.sprotyv.screens.ScreensTest" time="0.29"/>
+  <testcase name="unconscious" classname="ua.sprotyv.screens.ScreensTest" time="0.284"/>
+  <testcase name="settingsBig" classname="ua.sprotyv.screens.ScreensTest" time="0.274"/>
+  <testcase name="situation" classname="ua.sprotyv.screens.ScreensTest" time="0.258"/>
+  <testcase name="powerRunning" classname="ua.sprotyv.screens.ScreensTest" time="0.269"/>
+  <testcase name="mozSteps" classname="ua.sprotyv.screens.ScreensTest" time="0.326"/>
+  <testcase name="moz" classname="ua.sprotyv.screens.ScreensTest" time="0.264"/>
+  <testcase name="way" classname="ua.sprotyv.screens.ScreensTest" time="0.251"/>
+  <testcase name="handover" classname="ua.sprotyv.screens.ScreensTest" time="0.24"/>
+  <testcase name="guidePower" classname="ua.sprotyv.screens.ScreensTest" time="0.251"/>
+  <testcase name="guideTable" classname="ua.sprotyv.screens.ScreensTest" time="0.275"/>
+  <testcase name="comms" classname="ua.sprotyv.screens.ScreensTest" time="0.21"/>
+  <testcase name="power" classname="ua.sprotyv.screens.ScreensTest" time="0.215"/>
+  <testcase name="suspicious" classname="ua.sprotyv.screens.ScreensTest" time="0.259"/>
+  <testcase name="cardBig" classname="ua.sprotyv.screens.ScreensTest" time="0.286"/>
+  <testcase name="delegate" classname="ua.sprotyv.screens.ScreensTest" time="0.279"/>
+  <testcase name="powerDark" classname="ua.sprotyv.screens.ScreensTest" time="0.226"/>
+  <testcase name="homeSimple" classname="ua.sprotyv.screens.ScreensTest" time="0.236"/>
+  <testcase name="sections" classname="ua.sprotyv.screens.ScreensTest" time="0.362"/>
+  <testcase name="homeKid" classname="ua.sprotyv.screens.ScreensTest" time="0.271"/>
+  <testcase name="homeRunning" classname="ua.sprotyv.screens.ScreensTest" time="0.356"/>
+  <testcase name="guideTableBig" classname="ua.sprotyv.screens.ScreensTest" time="0.275"/>
+  <testcase name="mozFull" classname="ua.sprotyv.screens.ScreensTest" time="0.319"/>
+  <testcase name="mozList" classname="ua.sprotyv.screens.ScreensTest" time="0.327"/>
+  <testcase name="bleedingOverview" classname="ua.sprotyv.screens.ScreensTest" time="0.245"/>
+  <testcase name="resistance" classname="ua.sprotyv.screens.ScreensTest" time="0.278"/>
+  <testcase name="bleedingOverviewDark" classname="ua.sprotyv.screens.ScreensTest" time="0.251"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

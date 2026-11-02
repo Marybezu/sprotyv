@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.sprotyv.home.TilesTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-02T00:41:30.983Z" hostname="runnervmnwato" time="0.056">
+  <properties/>
+  <testcase name="unknownOrFixedIdsAreDropped" classname="ua.sprotyv.home.TilesTest" time="0.047"/>
+  <testcase name="everyPresetFitsAndHasNoRepeats" classname="ua.sprotyv.home.TilesTest" time="0.0"/>
+  <testcase name="pinningAddsAtTheEndOnceAndStopsAtTheLimit" classname="ua.sprotyv.home.TilesTest" time="0.001"/>
+  <testcase name="everyCardCanBePinned" classname="ua.sprotyv.home.TilesTest" time="0.001"/>
+  <testcase name="movingStaysInPlaceAtTheEdges" classname="ua.sprotyv.home.TilesTest" time="0.001"/>
+  <testcase name="restListsUnnamedChapters" classname="ua.sprotyv.home.TilesTest" time="0.0"/>
+  <testcase name="simpleModeShowsSixAtMost" classname="ua.sprotyv.home.TilesTest" time="0.001"/>
+  <testcase name="presetsAndGroupsOnlyNameRealTiles" classname="ua.sprotyv.home.TilesTest" time="0.001"/>
+  <testcase name="readinessCountsWithoutGrading" classname="ua.sprotyv.home.TilesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

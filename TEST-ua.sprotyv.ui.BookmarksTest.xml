@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.sprotyv.ui.BookmarksTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-11-02T00:42:24.060Z" hostname="runnervmnwato" time="0.357">
+  <properties/>
+  <testcase name="refusesWhatIsNotASecurePage" classname="ua.sprotyv.ui.BookmarksTest" time="0.025"/>
+  <testcase name="keepsAnHttpsPageFromSharedText" classname="ua.sprotyv.ui.BookmarksTest" time="0.027"/>
+  <testcase name="pagesRoundTripAndStayWithinLimits" classname="ua.sprotyv.ui.BookmarksTest" time="0.133"/>
+  <testcase name="refusesTelegramInAnyForm" classname="ua.sprotyv.ui.BookmarksTest" time="0.03"/>
+  <testcase name="storedTelegramOrBrokenEntriesAreDropped" classname="ua.sprotyv.ui.BookmarksTest" time="0.042"/>
+  <testcase name="namesLoseDirectionAndControlCharacters" classname="ua.sprotyv.ui.BookmarksTest" time="0.041"/>
+  <testcase name="ukrainianDomainsAreKeptInPunycodeAndShownInLetters" classname="ua.sprotyv.ui.BookmarksTest" time="0.057"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

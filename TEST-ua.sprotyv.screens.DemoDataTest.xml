@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.sprotyv.screens.DemoDataTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-11-02T00:41:33.901Z" hostname="runnervmnwato" time="5.65">
+  <properties/>
+  <testcase name="backupRoundTrip" classname="ua.sprotyv.screens.DemoDataTest" time="5.65"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Robolectric] WARN: Android SDK 36 requires Java 21 (have Java 17). Tests won't be run on SDK 36 unless explicitly requested.
+]]></system-err>
+</testsuite>

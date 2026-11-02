@@ -1,0 +1,82 @@
+tests 95 success
+----
+> Task :app:processReleaseResources
+> Task :reach:javaPreCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :content:mergeReleaseShaders
+> Task :content:compileReleaseShaders NO-SOURCE
+> Task :content:generateReleaseAssets UP-TO-DATE
+> Task :content:mergeReleaseAssets
+> Task :personal:mergeReleaseShaders
+> Task :personal:compileReleaseShaders NO-SOURCE
+> Task :personal:generateReleaseAssets UP-TO-DATE
+> Task :personal:mergeReleaseAssets
+> Task :reach:mergeReleaseShaders
+> Task :reach:compileReleaseShaders NO-SOURCE
+> Task :reach:generateReleaseAssets UP-TO-DATE
+> Task :reach:mergeReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:packageReleaseUnitTestForUnitTest
+> Task :app:processReleaseUnitTestManifest
+> Task :app:generateReleaseUnitTestConfig
+> Task :content:preReleaseUnitTestBuild UP-TO-DATE
+> Task :content:generateReleaseUnitTestStubRFile
+> Task :content:javaPreCompileReleaseUnitTest
+> Task :personal:preReleaseUnitTestBuild UP-TO-DATE
+> Task :personal:generateReleaseUnitTestStubRFile
+> Task :personal:javaPreCompileReleaseUnitTest
+> Task :reach:preReleaseUnitTestBuild UP-TO-DATE
+> Task :reach:generateReleaseUnitTestStubRFile
+> Task :reach:javaPreCompileReleaseUnitTest
+> Task :reach:compileReleaseKotlin
+> Task :reach:compileReleaseJavaWithJavac NO-SOURCE
+> Task :reach:bundleLibCompileToJarRelease
+> Task :reach:bundleLibRuntimeToJarRelease
+> Task :reach:processReleaseJavaRes
+> Task :personal:kspReleaseKotlin
+> Task :reach:compileReleaseUnitTestKotlin
+> Task :reach:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :reach:processReleaseUnitTestJavaRes
+> Task :content:compileReleaseKotlin
+> Task :reach:testReleaseUnitTest
+> Task :content:compileReleaseJavaWithJavac NO-SOURCE
+> Task :content:bundleLibRuntimeToJarRelease
+> Task :content:bundleLibCompileToJarRelease
+> Task :content:processReleaseJavaRes
+> Task :content:compileReleaseUnitTestKotlin
+> Task :content:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :content:processReleaseUnitTestJavaRes
+> Task :content:testReleaseUnitTest
+> Task :personal:compileReleaseKotlin
+> Task :personal:compileReleaseJavaWithJavac NO-SOURCE
+> Task :personal:bundleLibCompileToJarRelease
+> Task :personal:processReleaseJavaRes
+> Task :personal:bundleLibRuntimeToJarRelease
+> Task :personal:kspReleaseUnitTestKotlin
+> Task :personal:compileReleaseUnitTestKotlin
+> Task :personal:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :personal:processReleaseUnitTestJavaRes
+> Task :personal:testReleaseUnitTest
+
+> Task :app:compileReleaseKotlin
+w: file:///home/runner/work/sprotyv/sprotyv/app/src/main/java/ua/sprotyv/ui/BackupUi.kt:278:57 Unnecessary non-null assertion (!!) on a non-null receiver of type 'ByteArray'.
+
+> Task :app:compileReleaseJavaWithJavac NO-SOURCE
+> Task :app:processReleaseJavaRes
+> Task :app:bundleReleaseClassesToRuntimeJar
+> Task :app:bundleReleaseClassesToCompileJar
+> Task :app:compileReleaseUnitTestKotlin
+> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processReleaseUnitTestJavaRes
+> Task :app:testReleaseUnitTest
+gradle/actions: Writing build results to /home/runner/work/_temp/.gradle-actions/build-results/__run_3-1793579992404.json
+
+[Incubating] Problems report is available at: file:///home/runner/work/sprotyv/sprotyv/build/reports/problems/problems-report.html
+
+BUILD SUCCESSFUL in 2m 38s
+98 actionable tasks: 98 executed

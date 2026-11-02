@@ -1,0 +1,57 @@
+Archive:  app/build/outputs/apk/release/app-release-unsigned.apk
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+     4582  1981-01-01 01:01   assets/dexopt/baseline.prof
+      526  1981-01-01 01:01   assets/dexopt/baseline.profm
+    31985  1981-01-01 01:01   assets/cards.json
+   244958  1981-01-01 01:01   assets/constitution.json
+    62144  1981-01-01 01:01   assets/eff_large_wordlist.txt
+    23019  1981-01-01 01:01   assets/en/cards.json
+   375530  1981-01-01 01:01   assets/en/guide.json
+    22998  1981-01-01 01:01   assets/en/history.json
+     5295  1981-01-01 01:01   assets/en/kid_cards.json
+    14797  1981-01-01 01:01   assets/en/new_place.json
+    29178  1981-01-01 01:01   assets/en/practice.json
+    33884  1981-01-01 01:01   assets/figures/fig_06c270600e32c2ef.png
+    15831  1981-01-01 01:01   assets/figures/fig_0fabc9ae283612b0.png
+    12189  1981-01-01 01:01   assets/figures/fig_14e16b01d58c1d84.png
+    20510  1981-01-01 01:01   assets/figures/fig_2231976af70b4314.png
+    28128  1981-01-01 01:01   assets/figures/fig_22f77e4ccc02c0b8.png
+    13754  1981-01-01 01:01   assets/figures/fig_26ee595e90b614da.png
+   210198  1981-01-01 01:01   assets/figures/fig_29d20c919ba49d49.png
+    24759  1981-01-01 01:01   assets/figures/fig_3207c196d37570c9.png
+    18478  1981-01-01 01:01   assets/figures/fig_353e7f1e49ad8f15.png
+    34300  1981-01-01 01:01   assets/figures/fig_3fd3c7ffba2409fa.png
+   269600  1981-01-01 01:01   assets/figures/fig_479b44acd3076aa1.png
+    14185  1981-01-01 01:01   assets/figures/fig_4b19d52914d2013e.png
+     9316  1981-01-01 01:01   assets/figures/fig_5307e1740197d670.png
+    30493  1981-01-01 01:01   assets/figures/fig_59158d66153137da.png
+   237250  1981-01-01 01:01   assets/figures/fig_5a2c70a4d6bb2137.png
+    27518  1981-01-01 01:01   assets/figures/fig_622a5c80c428ad42.png
+    10079  1981-01-01 01:01   assets/figures/fig_63437a33d44a7ae4.png
+     7538  1981-01-01 01:01   assets/figures/fig_6a9f8ffc776c1d55.png
+    41652  1981-01-01 01:01   assets/figures/fig_80bb936d11c78f6d.png
+    14165  1981-01-01 01:01   assets/figures/fig_995d675c6a0f5d77.png
+    40023  1981-01-01 01:01   assets/figures/fig_9a9ed4aaab6a264b.png
+    15656  1981-01-01 01:01   assets/figures/fig_9ecff72a1cf54d78.png
+    41853  1981-01-01 01:01   assets/figures/fig_a0acb232cdd99d47.png
+    22193  1981-01-01 01:01   assets/figures/fig_baabeef488034a33.png
+    23598  1981-01-01 01:01   assets/figures/fig_bac22340966d26ce.png
+    19248  1981-01-01 01:01   assets/figures/fig_c2534ec9fbd18536.png
+     9668  1981-01-01 01:01   assets/figures/fig_c323918943d7e624.png
+    31241  1981-01-01 01:01   assets/figures/fig_c5a4920ecc3418f7.png
+    21336  1981-01-01 01:01   assets/figures/fig_cca3562137aec997.png
+    20212  1981-01-01 01:01   assets/figures/fig_d37afab0ee5b8c86.png
+    28508  1981-01-01 01:01   assets/figures/fig_d52368b31358cc30.png
+    25111  1981-01-01 01:01   assets/figures/fig_df8c58773df0625e.png
+    22412  1981-01-01 01:01   assets/figures/fig_fda0fcf4f369247a.png
+   433003  1981-01-01 01:01   assets/guide.json
+    30156  1981-01-01 01:01   assets/history.json
+     6227  1981-01-01 01:01   assets/kid_cards.json
+    69241  1981-01-01 01:01   assets/links.json
+   250175  1981-01-01 01:01   assets/moz441.json
+    18060  1981-01-01 01:01   assets/new_place.json
+   438314  1981-01-01 01:01   assets/pdr.json
+    38747  1981-01-01 01:01   assets/practice.json
+---------                     -------
+  3493821                     52 files

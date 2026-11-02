@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.sprotyv.reach.LinksTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-02T00:40:46.595Z" hostname="runnervmnwato" time="0.077">
+  <properties/>
+  <testcase name="oneSmsToSeveralPeople" classname="ua.sprotyv.reach.LinksTest" time="0.041"/>
+  <testcase name="encodesUkrainianText" classname="ua.sprotyv.reach.LinksTest" time="0.005"/>
+  <testcase name="refusesSmsWithNoRealNumber" classname="ua.sprotyv.reach.LinksTest" time="0.004"/>
+  <testcase name="cleansNumbers" classname="ua.sprotyv.reach.LinksTest" time="0.001"/>
+  <testcase name="dialsEmergencyNumber" classname="ua.sprotyv.reach.LinksTest" time="0.0"/>
+  <testcase name="whatsappTurnsLocalNumberInternational" classname="ua.sprotyv.reach.LinksTest" time="0.02"/>
+  <testcase name="refusesWhatsappWithoutNumber" classname="ua.sprotyv.reach.LinksTest" time="0.003"/>
+  <testcase name="whatsappHasTextReady" classname="ua.sprotyv.reach.LinksTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

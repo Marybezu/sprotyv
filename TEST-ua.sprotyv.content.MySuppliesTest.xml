@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ua.sprotyv.content.MySuppliesTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-11-02T00:40:52.084Z" hostname="runnervmnwato" time="0.032">
+  <properties/>
+  <testcase name="expiringOnlyWhatIsAtHome" classname="ua.sprotyv.content.MySuppliesTest" time="0.021"/>
+  <testcase name="waterDaysForTheHousehold" classname="ua.sprotyv.content.MySuppliesTest" time="0.001"/>
+  <testcase name="damagedValuesFallBackQuietly" classname="ua.sprotyv.content.MySuppliesTest" time="0.008"/>
+  <testcase name="roundTrip" classname="ua.sprotyv.content.MySuppliesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
